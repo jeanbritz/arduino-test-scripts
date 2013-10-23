@@ -1,0 +1,317 @@
+NFC: Found chip PN532
+GSM : Ready 
+
+*** Start HTTP Transaction ***
+
++CHTTPACT: REQUEST
+AT+CHTTPACT="ml.sun.ac.za",8000
+GET /test/ HTTP/1.1
+Host:ml.sun.ac.za:8000
+Content-Length:0
+
+
++CHTTPACT: DATA,
+172
+http/1.0 200 ok
+date: mon, 21 oct 2013 21:46:20 gmt
+server: wsgiserver/0.1 python/2.7.5
+content-type: text/html; charset=utf-8
+
+<html><body<3>es</3>/od><htl>
+*** End HTTP Transaction ***
+
+Memory Free : 1346
+
+*** Start HTTP Transaction ***
+
++CHTTPACT: REQUEST
+AT+CHTTPACT="ml.sun.ac.za",8000
+GET /test/ HTTP/1.1
+Host:ml.sun.ac.za:8000
+Content-Length:0
+
+
++CHTTPACT: DATA,
+172
+http/1.0 200 ok
+date: mon, 21 oct 2013 21:46:48 gmt
+server: wsgiserver/0.1 python/2.7.5
+content-type: text/html; charset=utf-8
+
+<html><boy>h3Tet<h><boy>/tm>
+*** End HTTP Transaction ***
+
+Memory Free : 1346
+
+*** Start HTTP Transaction ***
+
++CHTTPACT: REQUEST
+AT+CHTTPACT="ml.sun.ac.za",8000
+GET /test/ HTTP/1.1
+Host:ml.sun.ac.za:8000
+Content-Length:0
+
+
++CHTTPACT: DATA,
+172
+http/1.0 200 ok
+date: mon, 21 oct 2013 21:46:58 gmt
+server: wsgiserver/0.1 python/2.7.5
+content-type: text/html; charset=utf-8
+
+<html><boy>h3Tet<h><boy>/hml
+*** End HTTP Transaction ***
+
+Memory Free : 1346
+
+*** Start HTTP Transaction ***
+
++CHTTPACT: REQUEST
+AT+CHTTPACT="ml.sun.ac.za",8000
+GET /test/ HTTP/1.1
+Host:ml.sun.ac.za:8000
+Content-Length:0
+
+
++CHTTPACT: DATA,
+172
+http/1.0 200 ok
+date: mon, 21 oct 2013 21:53:40 gmt
+server: wsgiserver/0.1 python/2.7.5
+content-type: text/html; charset=utf-8
+
+<html><bod><3Tet<h3<boy>/hml
+*** End HTTP Transaction ***
+
+Memory Free : 1346
+
+*** Start HTTP Transaction ***
+
++CHTTPACT: REQUEST
+AT+CHTTPACT="ml.sun.ac.za",8000
+GET /test/ HTTP/1.1
+Host:ml.sun.ac.za:8000
+Content-Length:0
+
+
++CHTTPACT: DATA,
+137
+http/1.0 200 ok
+date: mon, 21 oct 2013 21:54:14 gmt
+server: wsgiserver/0.1 python/2.7.5
+content-type: text/html; charset=utf-8
+
+Test
+*** End HTTP Transaction ***
+
+Memory Free : 1346
+
+*** Start HTTP Transaction ***
+
++CHTTPACT: REQUEST
+AT+CHTTPACT="ml.sun.ac.za",8000
+GET /test/ HTTP/1.1
+Host:ml.sun.ac.za:8000
+Content-Length:0
+
+
++CHTTPACT: DATA,
+137
+http/1.0 200 ok
+date: mon, 21 oct 2013 21:54:29 gmt
+server: wsgiserver/0.1 python/2.7.5
+content-type: text/html; charset=utf-8
+
+Test
+*** End HTTP Transaction ***
+
+Memory Free : 1346
+
+*** Start HTTP Transaction ***
+
++CHTTPACT: REQUEST
+AT+CHTTPACT="ml.sun.ac.za",8000
+GET /test/ HTTP/1.1
+Host:ml.sun.ac.za:8000
+Content-Length:0
+
+
++CHTTPACT: DATA,
+137
+http/1.0 200 ok
+date: mon, 21 oct 2013 21:54:38 gmt
+server: wsgiserver/0.1 python/2.7.5
+content-type: text/html; charset=utf-8
+
+Test
+*** End HTTP Transaction ***
+
+Memory Free : 1346
+
+*** Start HTTP Transaction ***
+
++CHTTPACT: REQUEST
+AT+CHTTPACT="ml.sun.ac.za",8000
+GET /test/ HTTP/1.1
+Host:ml.sun.ac.za:8000
+Content-Length:0
+
+
++CHTTPACT: DATA,
+146
+http/1.0 200 ok
+date: mon, 21 oct 2013 21:55:23 gmt
+server: wsgiserver/0.1 python/2.7.5
+content-type: text/html; charset=utf-8
+
+Hoe gaan dt?
+*** End HTTP Transaction ***
+
+Memory Free : 1346
+
+*** Start HTTP Transaction ***
+
++CHTTPACT: REQUEST
+AT+CHTTPACT="ml.sun.ac.za",8000
+GET /test/ HTTP/1.1
+Host:ml.sun.ac.za:8000
+Content-Length:0
+
+
++CHTTPACT: DATA,
+146
+http/1.0 200 ok
+date: mon, 21 oct 2013 21:55:35 gmt
+server: wsgiserver/0.1 python/2.7.5
+content-type: text/html; charset=utf-8
+
+Hoe gaan dt?
+*** End HTTP Transaction ***
+
+Memory Free : 1346
+
+*** Start HTTP Transaction ***
+
++CHTTPACT: REQUEST
+AT+CHTTPACT="ml.sun.ac.za",8000
+GET /test/ HTTP/1.1
+Host:ml.sun.ac.za:8000
+Content-Length:0
+
+
++CHTTPACT: DATA,
+146
+http/1.0 200 ok
+date: mon, 21 oct 2013 21:55:44 gmt
+server: wsgiserver/0.1 python/2.7.5
+content-type: text/html; charset=utf-8
+
+Hoe gaan it
+*** End HTTP Transaction ***
+
+Memory Free : 1346
+
+*** Start HTTP Transaction ***
+
++CHTTPACT: REQUEST
+AT+CHTTPACT="ml.sun.ac.za",8000
+GET /test/ HTTP/1.1
+Host:ml.sun.ac.za:8000
+Content-Length:0
+
+
++CHTTPACT: DATA,
+146
+http/1.0 200 ok
+date: mon, 21 oct 2013 21:55:55 gmt
+server: wsgiserver/0.1 python/2.7.5
+content-type: text/html; charset=utf-8
+
+Hoe gaan it
+*** End HTTP Transaction ***
+
+Memory Free : 1346
+
+*** Start HTTP Transaction ***
+
++CHTTPACT: REQUEST
+AT+CHTTPACT="ml.sun.ac.za",8000
+GET /test/ HTTP/1.1
+Host:ml.sun.ac.za:8000
+Content-Length:0
+
+
++CHTTPACT: DATA,
+146
+http/1.0 200 ok
+date: mon, 21 oct 2013 21:56:05 gmt
+server: wsgiserver/0.1 python/2.7.5
+content-type: text/html; charset=utf-8
+
+Hoe gaan dt
+*** End HTTP Transaction ***
+
+Memory Free : 1346
+
+*** Start HTTP Transaction ***
+
++CHTTPACT: REQUEST
+AT+CHTTPACT="ml.sun.ac.za",8000
+GET /test/ HTTP/1.1
+Host:ml.sun.ac.za:8000
+Content-Length:0
+
+
++CHTTPACT: DATA,
+146
+http/1.0 200 ok
+date: mon, 21 oct 2013 21:56:14 gmt
+server: wsgiserver/0.1 python/2.7.5
+content-type: text/html; charset=utf-8
+
+Hoe gaan i?
+*** End HTTP Transaction ***
+
+Memory Free : 1346
+
+*** Start HTTP Transaction ***
+
++CHTTPACT: REQUEST
+AT+CHTTPACT="ml.sun.ac.za",8000
+GET /test/ HTTP/1.1
+Host:ml.sun.ac.za:8000
+Content-Length:0
+
+
++CHTTPACT: DATA,
+146
+http/1.0 200 ok
+date: mon, 21 oct 2013 21:56:30 gmt
+server: wsgiserver/0.1 python/2.7.5
+content-type: text/html; charset=utf-8
+
+Hoe gaan di?
+*** End HTTP Transaction ***
+
+Memory Free : 1346
+
+*** Start HTTP Transaction ***
+
++CHTTPACT: REQUEST
+AT+CHTTPACT="ml.sun.ac.za",8000
+GET /test/ HTTP/1.1
+Host:ml.sun.ac.za:8000
+Content-Length:0
+
+
++CHTTPACT: DATA,
+146
+http/1.0 200 ok
+date: mon, 21 oct 2013 21:56:43 gmt
+server: wsgiserver/0.1 python/2.7.5
+content-type: text/html; charset=utf-8
+
+Hoe gaan dt?
+*** End HTTP Transaction ***
+
+Memory Free : 1346

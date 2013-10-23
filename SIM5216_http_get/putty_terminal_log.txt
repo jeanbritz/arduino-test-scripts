@@ -1,0 +1,110 @@
+login as: jibritz
+jibritz@ml.sun.ac.za's password:
+Last login: Mon Oct 21 19:56:04 2013 from 10.10.11.102
+[jibritz@sheldon ~]$ cd devel/skripsie
+[jibritz@sheldon skripsie]$ python manage.py 0.0.0.0:8000
+Unknown command: '0.0.0.0:8000'
+Type 'manage.py help' for usage.
+[jibritz@sheldon skripsie]$ python manage.py runserver 0.0.0.0:8000
+Validating models...
+
+0 errors found
+October 21, 2013 - 22:58:52
+Django version 1.5.2, using settings 'skripsie.settings'
+Development server is running at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+/home/jibritz/.local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+/home/jibritz/devel/skripsie/paySystem/serializers.py:24: DeprecationWarning: The `null` keyword argument is deprecated. Use the `required` keyword argument instead.
+  location = serializers.PrimaryKeyRelatedField(source='paySystem.locations', many=False,  null=True, read_only=True)
+
+[21/Oct/2013 22:59:03] (197.65.239.205) "GET /test/ HTTP/1.1" 200 39
+[21/Oct/2013 23:03:22] (197.79.0.63) "GET /test/ HTTP/1.1" 200 39
+[21/Oct/2013 23:04:48] (197.65.60.155) "GET /test/ HTTP/1.1" 200 39
+[21/Oct/2013 23:06:25] (41.117.58.59) "GET /test/ HTTP/1.1" 200 39
+[21/Oct/2013 23:09:18] (197.79.2.76) "GET /test/ HTTP/1.1" 200 39
+[21/Oct/2013 23:18:53] (197.64.103.12) "GET /test/ HTTP/1.1" 200 39
+[21/Oct/2013 23:19:55] (197.64.42.120) "GET /test/ HTTP/1.1" 200 39
+[21/Oct/2013 23:21:04] (41.118.238.228) "GET /test/ HTTP/1.1" 200 39
+[21/Oct/2013 23:23:30] (41.117.164.171) "GET /test/ HTTP/1.1" 200 39
+[21/Oct/2013 23:25:01] (197.65.146.149) "GET /test/ HTTP/1.1" 200 39
+[21/Oct/2013 23:27:03] (41.118.120.21) "GET /test/ HTTP/1.1" 200 39
+[21/Oct/2013 23:28:08] (41.117.173.172) "GET /test/ HTTP/1.1" 200 39
+[21/Oct/2013 23:29:12] (197.79.15.76) "GET /test/ HTTP/1.1" 200 39
+[21/Oct/2013 23:29:28] (197.79.10.158) "GET /test/ HTTP/1.1" 200 39
+[21/Oct/2013 23:37:47] (197.79.8.5) "GET /test/ HTTP/1.1" 200 39
+[21/Oct/2013 23:39:15] (197.64.44.140) "GET /test/ HTTP/1.1" 200 39
+[21/Oct/2013 23:43:37] (197.65.148.109) "GET /test/ HTTP/1.1" 200 39
+[21/Oct/2013 23:45:06] (197.64.176.48) "GET /test/ HTTP/1.1" 200 39
+[21/Oct/2013 23:45:28] (197.65.17.146) "GET /test/ HTTP/1.1" 200 39
+[21/Oct/2013 23:45:40] (197.79.10.41) "GET /test/ HTTP/1.1" 200 39
+[21/Oct/2013 23:46:20] (41.118.233.71) "GET /test/ HTTP/1.1" 200 39
+[21/Oct/2013 23:46:48] (197.64.5.183) "GET /test/ HTTP/1.1" 200 39
+[21/Oct/2013 23:46:58] (41.119.61.198) "GET /test/ HTTP/1.1" 200 39
+[21/Oct/2013 23:53:40] (41.117.122.206) "GET /test/ HTTP/1.1" 200 39
+^Z
+[1]+  Stopped                 python2.7 manage.py runserver 0.0.0.0:8000
+[jibritz@sheldon skripsie]$ python manage.py runserver 0.0.0.0:8000
+Validating models...
+
+0 errors found
+October 21, 2013 - 23:53:55
+Django version 1.5.2, using settings 'skripsie.settings'
+Development server is running at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Error: That port is already in use.
+[jibritz@sheldon skripsie]$ fuser -k -n udp 8000
+8000/udp:             1807
+[jibritz@sheldon skripsie]$ kill 1807
+[jibritz@sheldon skripsie]$ python manage.py runserver 0.0.0.0:8000
+Validating models...
+
+0 errors found
+October 21, 2013 - 23:54:08
+Django version 1.5.2, using settings 'skripsie.settings'
+Development server is running at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+/home/jibritz/.local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+/home/jibritz/devel/skripsie/paySystem/serializers.py:24: DeprecationWarning: The `null` keyword argument is deprecated. Use the `required` keyword argument instead.
+  location = serializers.PrimaryKeyRelatedField(source='paySystem.locations', many=False,  null=True, read_only=True)
+
+[21/Oct/2013 23:54:14] (197.64.248.240) "GET /test/ HTTP/1.1" 200 4
+[21/Oct/2013 23:54:29] (41.118.121.47) "GET /test/ HTTP/1.1" 200 4
+[21/Oct/2013 23:54:38] (197.79.7.25) "GET /test/ HTTP/1.1" 200 4
+Validating models...
+
+0 errors found
+October 21, 2013 - 23:54:59
+Django version 1.5.2, using settings 'skripsie.settings'
+Development server is running at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+^Z
+[2]+  Stopped                 python2.7 manage.py runserver 0.0.0.0:8000
+[jibritz@sheldon skripsie]$ fuser -k -n udp 8000
+8000/udp:             3026
+[jibritz@sheldon skripsie]$ kill 3026
+[jibritz@sheldon skripsie]$ python manage.py runserver 0.0.0.0:8000
+Validating models...
+
+0 errors found
+October 21, 2013 - 23:55:14
+Django version 1.5.2, using settings 'skripsie.settings'
+Development server is running at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+/home/jibritz/.local/lib/python2.7/site-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+/home/jibritz/devel/skripsie/paySystem/serializers.py:24: DeprecationWarning: The `null` keyword argument is deprecated. Use the `required` keyword argument instead.
+  location = serializers.PrimaryKeyRelatedField(source='paySystem.locations', many=False,  null=True, read_only=True)
+
+[21/Oct/2013 23:55:23] (41.118.153.31) "GET /test/ HTTP/1.1" 200 13
+[21/Oct/2013 23:55:35] (197.64.162.63) "GET /test/ HTTP/1.1" 200 13
+[21/Oct/2013 23:55:44] (41.118.101.113) "GET /test/ HTTP/1.1" 200 13
+[21/Oct/2013 23:55:55] (197.65.232.3) "GET /test/ HTTP/1.1" 200 13
+[21/Oct/2013 23:56:05] (197.79.7.179) "GET /test/ HTTP/1.1" 200 13
+[21/Oct/2013 23:56:14] (197.65.216.179) "GET /test/ HTTP/1.1" 200 13
+[21/Oct/2013 23:56:30] (197.65.63.62) "GET /test/ HTTP/1.1" 200 13
+[21/Oct/2013 23:56:43] (41.119.30.205) "GET /test/ HTTP/1.1" 200 13

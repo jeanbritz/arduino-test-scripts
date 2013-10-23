@@ -1,0 +1,116 @@
+if (data_size > 0 && data_size < 512)
+      {
+        Serial.println(" Data size is < 512 bytes ");
+        while(gsmSerial.available() == 0);
+         
+        while(gsmSerial.available() > 0)
+         {
+           Serial.print((char)gsmSerial.read());
+         } 
+        while(gsmSerial.available() == 0);
+        
+        while(gsmSerial.available() > 0)
+         {
+           Serial.print((char)gsmSerial.read());
+         }
+         while(gsmSerial.available() == 0);
+        
+        while(gsmSerial.available() > 0)
+         {
+           Serial.print((char)gsmSerial.read());
+         }
+         while(gsmSerial.available() == 0);
+        
+        while(gsmSerial.available() > 0)
+         {
+           Serial.print((char)gsmSerial.read());
+         }
+         while(gsmSerial.available() == 0);
+        
+        while(gsmSerial.available() > 0)
+         {
+           Serial.print((char)gsmSerial.read());
+         }
+         while(gsmSerial.available() == 0);
+        
+        while(gsmSerial.available() > 0)
+         {
+           Serial.print((char)gsmSerial.read());
+         }
+         while(gsmSerial.available() == 0);
+        
+        while(gsmSerial.available() > 0)
+         {
+           Serial.print((char)gsmSerial.read());
+         }
+         
+        /*     
+        while(data_counter < _SS_MAX_RX_BUFF)
+        {
+          Serial.print("Byte No: "); Serial.print(data_counter);Serial.print("\t\t");
+          Serial.print("Byte Write:");
+          char c = (char)gsmSerial.read();
+          Serial.print(c);Serial.print("\t\t");Serial.print("Avail Bytes:"); Serial.println(gsmSerial.available());
+          EEPROM.write(eeprom_addr,c);
+          eeprom_addr++;
+          
+          if(gsmSerial.available() == 0)
+          {
+            break;
+          }
+                   
+          data_counter++;
+        }
+        data_counter = 0;
+        while(gsmSerial.available() == 0);
+        while(data_counter < _SS_MAX_RX_BUFF)
+        {
+          Serial.print("Byte No: "); Serial.print(data_counter);Serial.print("\t\t");
+          Serial.print("Byte Write:");
+          char c = (char)gsmSerial.read();
+          Serial.print(c);Serial.print("\t\t");Serial.print("Avail Bytes:"); Serial.println(gsmSerial.available());
+          EEPROM.write(eeprom_addr,c);
+          eeprom_addr++;
+          if(gsmSerial.available() == 0)
+          {
+            break;
+          }
+          data_counter++;
+        }
+        data_counter = 0;
+        while(gsmSerial.available() == 0);
+        while(data_counter < _SS_MAX_RX_BUFF)
+        {
+          Serial.print("Byte No: "); Serial.print(data_counter);Serial.print("\t\t");
+          Serial.print("Byte Write:");
+          char c = (char)gsmSerial.read();
+          Serial.print(c);Serial.print("\t\t");Serial.print("Avail Bytes:"); Serial.println(gsmSerial.available());
+          EEPROM.write(eeprom_addr,c);
+          eeprom_addr++;
+          if(gsmSerial.available() == 0)
+          {
+            break;
+          }
+          data_counter++;
+        }
+        
+        eeprom_addr = 0;
+        */
+        /*while(data_counter < data_size)
+        {
+          eeprom_value = EEPROM.read(eeprom_addr);
+          Serial.print(eeprom_addr);
+          Serial.print("\t");
+          Serial.print(eeprom_value);
+          Serial.println();
+ 
+          // advance to the next address of the EEPROM
+          eeprom_value++;
+          delay(5);
+        }*/
+        
+        
+      }
+      //EEPROM.write(eeprom_addr, (char)gsmSerial.read());
+
+      //Serial.print("Overflow");
