@@ -29,7 +29,7 @@ These are my instructions to send AT commands from an Arduino Uno to a Itead 3G 
 <li>Other settings: None</li>
 </ul></li>
 <li>When you're connected type "AT" and if the response is "OK", you are in!</li>
-<li>Now you need to change the baud rate permanently. Type "AT+IPREX=19200" and press enter. This will change the baud rate to 19200 permanently.</li>
+<li>Now you need to change the baud rate permanently. Type "AT+IPREX=9600" and press enter. This will change the baud rate to 19200 permanently.</li>
 <li>You will also need to change "AT+CSOCKAUTH", "AT+CGSOCKCONT" and "AT+CGATT", but you need to look it up yourself, because it depends on your mobile operator.</li>
 <li><a href="http://www.simcom.ee/documents/wcdma-hspa/sim5216/SIM5216J_AT_Command_Manual_V1.02.pdf">Click here</a> to read the AT Command manual.</li>
 <li>If everything is set, then you can upload the Arduino sketch and see whether it will execute</li>
