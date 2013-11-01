@@ -30,13 +30,13 @@ These are my instructions to send AT commands from an Arduino Uno to a Itead 3G 
 </ul></li>
 <li>When you're connected type "AT" and if the response is "OK", you are in!</li>
 <li>Now you need to change the baud rate permanently. Type "AT+IPREX=19200" and press enter. This will change the baud rate to 19200 permanently.</li>
-<li>The following commands needs also needs to be changed, but you need to look it up yourself, because it depends on your mobile operator.</li>
+<li>You will also need to change "AT+CSOCKAUTH", "AT+CGSOCKCONT" and "AT+CGATT", but you need to look it up yourself, because it depends on your mobile operator.</li>
 <li><a href="http://www.simcom.ee/documents/wcdma-hspa/sim5216/SIM5216J_AT_Command_Manual_V1.02.pdf">Click here</a> to read the AT Command manual.</li>
-<li>You will need to set "AT+CSOCKAUTH", "AT+CGSOCKCONT" and "AT+CGATT" to setup your device for GPRS.</li>
 <li>If everything is set, then you can upload the Arduino sketch and see whether it will execute</li>
-<li>Please note: The web server used in the sketch is not always accessible, so I would advise you to make your own web server</li>
-<li>Another important note please make the software serial buffer bigger!! Go to the Arduino library and edit SoftwareSerial.h. In this field there is a define _SS_MAX_RX_BUFF set to 64, change it to 128, otherwise your HTML reponses becomes corrupt when you get it eventually.
-<\li>
+<li>When it has done uploading, open the Serial Monitor in Arduino IDE and see whether there is any response. The status LED on the shield will blink faster indicating that data is being transmitted.</li>
+Please note: The web server used in the sketch is not always accessible, so I would advise you to make your own web server
+Another important note please make the software serial buffer bigger!! Go to Program Files/Arduino/libraries/SoftwareSerial and edit SoftwareSerial.h. In this file there is a #define _SS_MAX_RX_BUFF 64, change the 64 to 128, otherwise your HTTP reponses becomes corrupt when you get it eventually.
+
 </ol>
 
 
