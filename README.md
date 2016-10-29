@@ -32,7 +32,7 @@ These are my instructions to send AT commands from an Arduino Uno to an Itead 3G
 <li>When you're connected type "AT" and press Enter. If the response is "OK", you are in my friend!</li>
 <li>Now you need to change the baud rate on the SIM5216 for good. In the terminal's windows, type "AT+IPREX=9600" and press Enter. This will change the baud rate to 9600 permanently, which will make the Arduino Uno compatible to communicate with the SIM5216 module using AT commands over SoftwareSerial.</li>
 <li>You will also need to change "AT+CSOCKAUTH", "AT+CGSOCKCONT" and "AT+CGATT", but these settings depend on your mobile operator's APN name, username, password and additional settings. (This information can be obtained by slotting the SIM card into a mobile phone and request the settings to access the internet.)</li>
-<li><a href="http://www.simcom.ee/documents/wcdma-hspa/sim5216/SIM5216J_AT_Command_Manual_V1.02.pdf">Click here</a> to read the AT Command manual.</li>
+<li><a href="http://www.mt-system.ru/sites/default/files/simcom_sim5215_sim5216_atc_en_v1.20.pdf">Click here</a> to read the AT Command manual.</li>
 <li>If you are sure all the settings had been set correctly, then you can upload the Arduino sketch to see whether it will compile successfully.</li>
 <li>When it has done uploading, open the Serial Monitor in Arduino IDE to see if there is any response. The status LED on the shield will blink faster indicating that data is busy being transmitted.</li>
 Please note: The web server used in the sketch does not exist anymore, so I would advise you to make your own web server.
